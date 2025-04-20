@@ -10,6 +10,13 @@ This application uses a YOLOv8 classification model to detect heart disease from
 - FastAPI backend with YOLOv8 model integration
 - Responsive design for desktop and mobile devices
 
+# Dataset
+
+This project uses a labeled dataset of heart images from Roboflow to train and validate the model. The dataset includes categorized images of Abnormal, HMI (Hypertrophic Myocardial Infarction), MI (Myocardial Infarction), and Normal heart conditions.
+
+👉 View the dataset on Roboflow
+https://universe.roboflow.com/heat-disease-detection/heart-disease-detection-kczqi/dataset/1
+
 ## Prerequisites
 
 - Python 3.8+
@@ -75,10 +82,6 @@ This application uses a YOLOv8 classification model to detect heart disease from
 - The model is trained on heart images to classify them into four categories.
 - YOLOv8 is used as the base architecture for the classification task.
 - The model file `best.pt` contains the weights and architecture information.
-
-## License
-
-MIT
 
 ## Acknowledgments
 
